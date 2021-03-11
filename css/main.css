@@ -14,8 +14,8 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    text-decoration: underline;
-    color: #b35900;
+    text-decoration: none;
+    color: #804000;
 }
 a:hover {
     text-decoration: underline;
@@ -24,13 +24,13 @@ h1 {
     font-size: 3em;
     font-family:'Century Gothic', 'Avenir';
     font-weight: bold;
-    color: #4d2800;
+    color: #331a00;
 }
 h2 {
     font-size: 2em;
     font-family:'Century Gothic', 'Avenir';
     font-weight: bold;
-    color: #331a00;
+    color: #4d2800;
 }
 p {
     font-size: 1.5em;
