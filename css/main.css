@@ -22,6 +22,12 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Century Gothic', 'Avenir';
+    font-weight: bold;
+}
+h2 {
+    font-size: 2em;
+    font-family:'Century Gothic', 'Avenir';
+    font-weight: bold;
 }
 p {
     font-size: 1.5em;
