@@ -21,20 +21,20 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2.2em;
+    font-size: 3em;
     font-family:'Century Gothic', 'Avenir';
     font-weight: bold;
     color: #331a00;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     font-family:'Century Gothic', 'Avenir';
     font-weight: bold;
     color: #4d2800;
 }
 p {
-    font-size: 1em;
-    line-height: 0.9em;
+    font-size: 1.5em;
+    line-height: 1.4em;
     color: #1a1a1a;
     font-family:'Century Gothic', 'Avenir';
 }
