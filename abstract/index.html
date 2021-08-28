@@ -4,22 +4,20 @@ title: Nil Sahin
 ---
 <div class="blurb">
 	<h2>Machine Learning and Computer Vision Approaches for Phenotypic Profiling in Yeast</h2>
-	<p>Discovering and identifying functions of genes in an organism has been and will be the goal of genetics research.
-    Developing tools to help researchers with their gene function discoveries has been the overarching goal of my thesis.
-    One of the great methods to understand the gene function is by perturbing the gene and identifying the phenotypic consequences on the cell by imaging.
-    By focusing on specific compartments in the cell, the perturbed function reveals itself through altered subcellular morphology.
-    It will be useful for the community to develop an automated pipeline to discover abnormal morphological changes due to any perturbation.
-  </p>
-    <p>I focused on comparing different combinations of methods for performing image analysis and outlier detection to automatically detect cells with abnormal morphologies.
-    This detection allowed me to quantify the percentage of cells with abnormal phenotypes for a perturbed gene population, and thus the penetrance. 
-	    I combined outlier detection and a neural network-based image analysis of single cells to quantify the phenotypic variability within a population of cells.
-    As a model system, I first focused on the genes that influence the architecture of four subcellular compartments of the endocytic pathway.
-    17 distinct abnormal phenotypes were identified that are associated with many genes.
-    Nearly half of these perturbed populations displayed multiple phenotypes, suggesting that morphological pleiotropy is prevalent.
-  </p>
-  <p>I automated the clustering of cells with abnormal morphology on a comprehensive list of 18 subcellular compartments into distinct abnormal phenotypes to understand the global morphology of the yeast cell.
-    While the central players of many important biological processes have been discovered, there remain numerous gaps in our understanding of the regulation of cellular morphology.
-    By developing a computational pipeline to systematically and quantitatively assess abnormal phenotypes at the genome-wide level, I aimed to address these knowledge gaps.
-    These analyses allowed for the identification of connections between discrete biological processes, the prediction of novel gene function, and the generation of a clearer understanding of basic eukaryotic cell biology.
-  </p>
+	<p>A major goal of functional genomics research is to systematically discover the functions of all genes in an organism. 
+		Developing computational tools to facilitate gene function discoveries has been the overarching goal of my thesis work. 
+		In particular, I have focused on developing computational pipelines for the automated detection and classification of mutant phenotypes in images of single cells of the budding yeast, <i>Saccharomyces cerevisiae</i>. 
+		My collaborators in the Boone and Andrews labs have used methods that automate yeast genetics to produce genome-wide arrays of yeast mutants, each carrying a defined perturbation in a single gene, and expressing fluorescent markers for various subcellular compartments. 
+		The resulting large-scale image dataset consists of millions of single cells each harbouring a single gene perturbation and a single fluorescently labelled subcellular compartment for around 6000 yeast genes and 13 compartments. 
+	</p>
+	<p>To develop my image analysis pipeline for discovering mutant phenotypes in single-cell images of arrayed mutants, I first focused on comparing different combinations of methods for performing image analysis and outlier detection to automatically detect cells with abnormal morphologies. 
+		This analysis allowed me to quantify the percentage of cells in a mutant population with abnormal phenotypes and thus the penetrance of phenotypes associated with a specific genetic perturbation. 
+		In the second data chapter of my thesis, I combined outlier detection and a neural network-based image analysis of single cells to quantify the phenotypic variability within a population of cells. 
+		As a model system, I focused on the genes that influence the architecture of four subcellular compartments of the endocytic pathway and identified 17 distinct abnormal phenotypes that are associated with perturbation of many genes. 
+		Nearly half of these perturbed populations displayed multiple phenotypes, suggesting that morphological pleiotropy is prevalent. In the final data chapter of my thesis, I describe my work to automate the clustering of cells with abnormal morphology from a dataset of images of yeast cells expressing fluorescent markers of 13 subcellular compartments into distinct abnormal phenotypes to understand the global morphology of the yeast cell. 
+	</p>
+	<p>While the central players of many important biological processes have been discovered, there remain numerous gaps in our understanding of the regulation of cellular morphology. 
+		By developing a computational pipeline to systematically and quantitatively assess abnormal phenotypes at the genome-wide level, I aimed to address these knowledge gaps. 
+		My analyses have facilitated the identification of connections between discrete biological processes, the prediction of novel gene function, and the generation of a clearer understanding of basic eukaryotic cell biology.
+	</p>
 </div><!-- /.blurb -->
